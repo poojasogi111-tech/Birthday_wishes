@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Birthday Wishes</title>
+
+    <style>
+        body {
+            margin: 0;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #ffd6e8, #e6d6ff);
+            font-family: Arial, sans-serif;
+            padding: 40px 0;
+        }
+
+        .card {
+            background: white;
+            width: 75%;
+            max-width: 900px;
+            margin: auto;
+            padding: 50px;
+            text-align: center;
+            border-radius: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+
+        h1 {
+            color: #e91e63;
+            font-size: 48px;
+        }
+
+        h2 {
+            color: #8e44ad;
+            font-size: 30px;
+        }
+
+        p {
+            color: #555;
+            font-size: 20px;
+            line-height: 1.8;
+        }
+
+        button {
+            background: #e91e63;
+            color: white;
+            border: none;
+            padding: 15px 35px;
+            border-radius: 30px;
+            font-size: 20px;
+            cursor: pointer;
+            margin-top: 15px;
+        }
+
+        button:hover {
+            background: #8e44ad;
+            transform: scale(1.05);
+        }
+
+        #surprise {
+            display: none;
+            margin-top: 35px;
+            padding: 35px;
+            background: linear-gradient(135deg, #ffe0ef, #eee0ff);
+            border-radius: 25px;
+            animation: appear 0.8s ease;
+            text-align: left;
+        }
+
+        #surprise h2 {
+            text-align: center;
+            color: #e91e63;
+            font-size: 36px;
+        }
+
+        #surprise p {
+            color: #5d426b;
+            font-size: 20px;
+            line-height: 1.9;
+            margin-bottom: 20px;
+        }
+
+        .hearts {
+            text-align: center;
+            font-size: 30px;
+            margin: 15px;
+        }
+
+        @keyframes appear {
+            from {
+                opacity: 0;
+                transform: scale(0.7);
+            }
+
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="card">
+
+        <h1>🎂 Happy Birthday! 🎉</h1>
+
+        <h2>To My Dear 💖</h2>
+
+        <p>
+            Wishing you a very Happy Birthday! 🥳
+        </p>
+
+        <p>
+            May your day be filled with happiness, laughter,
+            beautiful memories and lots of love. ✨
+        </p>
+
+        <p>
+            Thank you for always being an amazing friend. 🤗
+        </p>
+
+        <h2>Have an Amazing Birthday! 🎁🎈</h2>
+
+        <button onclick="showMessage()">
+            🎉 Celebrate 🎉
+        </button>
+
+
+        <div id="surprise">
+
+            <div class="hearts">
+                💖 💕 💗 💓 💞
+            </div>
+
+            <h2>🎉 A Special Birthday  🎉</h2>
+
+            <p>
+                Happy Birthday, Dear! ❤️ Today is a very special day
+                because it is the day a wonderful person came into
+                this world. I hope this birthday brings you countless
+                reasons to smile and gives you memories that you will
+                always keep close to your heart. You deserve all the
+                happiness, peace, success and beautiful moments that
+                life has to offer. 🎂✨
+            </p>
+
+            <p>
+                I am really grateful to have you as a friend. Through
+                all the funny conversations, silly moments, small
+                arguments, laughter and unforgettable memories, our
+                friendship has become something very special. Some
+                people come into our lives and simply make ordinary
+                days feel brighter, and you are one of those people.
+                Thank you for being there and for making so many
+                moments more memorable. 💕
+            </p>
+
+            <p>
+                On your special day, I wish that every new year of
+                your life brings you closer to your dreams. May you
+                always have the courage to follow your heart, the
+                strength to overcome difficult days and the confidence
+                to believe in yourself. Whenever life feels difficult,
+                I hope you remember how special and valuable you are.
+                Never stop smiling, dreaming and being the wonderful
+                person you are. 🌸✨
+            </p>
+
+            <p>
+                I hope the coming year is full of beautiful surprises,
+                exciting opportunities, peaceful moments and lots of
+                reasons to celebrate. May you create many wonderful
+                memories with the people who care about you. May your
+                hard work bring success, your dreams become reality,
+                and every new day give you something to be thankful
+                for. 🎁🌷
+            </p>
+
+            <p>
+                Once again, Happy Birthday, Dear! 🎂🎉 Thank you for
+                being such an important part of my life and for all
+                the wonderful memories we have shared. I hope this
+                birthday is just the beginning of an amazing year
+                ahead. Keep smiling, keep shining and always remember
+                that you deserve beautiful things in life. 💖🥳
+            </p>
+
+            <div class="hearts">
+                🌸 💖 🌸 💖 🌸
+            </div>
+
+            <p style="text-align:center;">
+                🎂 Happy Birthday! 🎂<br>
+                🎉 Enjoy Your Special Day! 🎉<br>
+                💖 Stay Happy Always! 💖
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <script>
+        function showMessage() {
+            document.getElementById("surprise").style.display = "block";
+        }
+    </script>
+
+</body>
+</html>
